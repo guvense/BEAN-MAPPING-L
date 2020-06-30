@@ -14,7 +14,7 @@ import org.mapstruct.Named;
 
 import java.util.List;
 
-@Mapper(componentModel = "spring",uses = {TokenMapper.class})
+@Mapper(componentModel = "spring", uses = {TokenMapper.class})
 public interface UserRequestToUserConverter {
 
     @Mappings({

@@ -1,0 +1,4 @@
+com/beanmapper/mapper/mapper/mapstruct/UserRequestToUserConverterTest.class
+com/beanmapper/mapper/mapper/mapstruct/UserToUserResponseConverterTest.class
+com/beanmapper/mapper/mapper/modelmapper/ModelMapperConverterTest.class
+com/beanmapper/mapper/MapperApplicationTests.class

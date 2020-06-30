@@ -1,0 +1,4 @@
+/home/guven/Desktop/BeanMapperBlog/mapper/src/test/java/com/beanmapper/mapper/MapperApplicationTests.java
+/home/guven/Desktop/BeanMapperBlog/mapper/src/test/java/com/beanmapper/mapper/mapper/modelmapper/ModelMapperConverterTest.java
+/home/guven/Desktop/BeanMapperBlog/mapper/src/test/java/com/beanmapper/mapper/mapper/mapstruct/UserRequestToUserConverterTest.java
+/home/guven/Desktop/BeanMapperBlog/mapper/src/test/java/com/beanmapper/mapper/mapper/mapstruct/UserToUserResponseConverterTest.java

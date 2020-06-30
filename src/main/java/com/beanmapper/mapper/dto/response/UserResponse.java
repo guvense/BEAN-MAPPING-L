@@ -8,11 +8,11 @@ import lombok.Setter;
 @Getter
 @Setter
 public class UserResponse {
-
     private String userId;
     private String username;
     private String firstName;
     private String lastName;
-    public String countryName;
-    public AccountType accountType;
+    private String countryName;
+    private AccountType accountType;
+    private String company;
 }

@@ -11,14 +11,12 @@ import org.mockito.junit.MockitoJUnitRunner;
 import org.modelmapper.Converter;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.TypeMap;
-import org.modelmapper.config.Configuration;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.support.AnnotationConfigContextLoader;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 @RunWith(MockitoJUnitRunner.class)
-@ContextConfiguration(classes= ModelMapperConfig.class, loader= AnnotationConfigContextLoader.class)
 public class ModelMapperConverterTest {
 
     private ModelMapper modelMapper;
@@ -37,7 +35,6 @@ public class ModelMapperConverterTest {
             mapper .using(markAsUser)
                     .map(UserRequest::getCompany, User::setCompany);
         });
-
     }
 
     @Test
@@ -59,8 +56,6 @@ public class ModelMapperConverterTest {
         assertEquals("iyzico Company", user.getCompany());
         assertEquals("firstname", user.getFirstName());
         assertEquals("lastname", user.getLastName());
-        assertEquals("1",user.getToken()); // Can understand type
-
+        assertEquals("1",user.getToken()); // It can understand from type
     }
-
 }

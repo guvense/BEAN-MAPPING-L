@@ -1,6 +1,5 @@
 package com.beanmapper.mapper.mapper.mapstruct;
 
-
 import com.beanmapper.mapper.constant.AccountType;
 import com.beanmapper.mapper.dto.response.UserResponse;
 import com.beanmapper.mapper.entity.User;
@@ -14,7 +13,6 @@ import org.mapstruct.Mappings;
 import org.springframework.beans.factory.annotation.Autowired;
 
 @Mapper(unmappedTargetPolicy = org.mapstruct.ReportingPolicy.IGNORE,
-        uses = {CountryService.class},
         componentModel = "spring")
 public abstract class UserToUserResponseConverter {
 
